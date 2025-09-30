@@ -28,12 +28,3 @@ Depois execute:
 ```bash
 python main.py
 ```
-
-## Testes sugeridos
-- Polígonos simples (convexos e côncavos)
-- Polígonos com arestas horizontais e vértices colineares
-- Polígonos complexos (auto-interseções não são suportadas pela versão básica)
-
-## Observações
-- Implementação segue a abordagem clássica de ET/AET, ignorando arestas
-  horizontais e usando `y < y_max` para evitar duplo-contagem em vértices.
